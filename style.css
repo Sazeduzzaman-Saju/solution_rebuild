@@ -2,7 +2,7 @@
   background-color: #0b6476;
 }
 .site-bg-two {
-  background-color: #0b647675;
+  background-color: #0b6476dc;
 }
 .site-bg {
   background-color: #0b6476;
@@ -31,18 +31,19 @@
   background-color: #0b6476;
   outline: 1px solid slategrey;
 }
-.style-columns-two ::-webkit-scrollbar {
+.style-columns-twos::-webkit-scrollbar {
   width: 0.5em;
 }
 
-.style-columns-two ::-webkit-scrollbar-track {
+.style-columns-twos::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
-.style-columns-two ::-webkit-scrollbar-thumb {
+.style-columns-twos::-webkit-scrollbar-thumb {
   background-color: #0b6476;
   outline: 1px solid slategrey;
 }
+
 .templates-comps {
   background-color: #eee;
   height: 100vh;
@@ -53,7 +54,7 @@
   height: 100vh;
   overflow-y: scroll;
 }
-.style-columns-two {
+.style-columns-twos {
   background-color: #eee;
   height: 100vh;
   overflow-y: scroll;
