@@ -31,6 +31,18 @@
   background-color: #0b6476;
   outline: 1px solid slategrey;
 }
+.style-columns-two ::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.style-columns-two ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.style-columns-two ::-webkit-scrollbar-thumb {
+  background-color: #0b6476;
+  outline: 1px solid slategrey;
+}
 .templates-comps {
   background-color: #eee;
   height: 100vh;
@@ -40,6 +52,12 @@
   background-color: #eee;
   height: 100vh;
   overflow-y: scroll;
+}
+.style-columns-two {
+  background-color: #eee;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .checkbox-image input[type="checkbox"] {
   display: none;
